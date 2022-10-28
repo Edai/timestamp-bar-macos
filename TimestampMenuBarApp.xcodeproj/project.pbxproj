@@ -16,14 +16,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D328C72C25EE080D003CEAE8 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D328C72C25EE080D003CEAE8 /* TimestampMenuBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimestampMenuBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D328C72F25EE080D003CEAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D328C73125EE080D003CEAE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D328C73325EE080D003CEAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D328C73625EE080D003CEAE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D328C73925EE080D003CEAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D328C73B25EE080D003CEAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D328C73C25EE080D003CEAE8 /* WeatherApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeatherApp.entitlements; sourceTree = "<group>"; };
+		D328C73C25EE080D003CEAE8 /* TimestampMenuBarApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimestampMenuBarApp.entitlements; sourceTree = "<group>"; };
 		D328C74425EE0883003CEAE8 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		D328C72325EE080C003CEAE8 = {
 			isa = PBXGroup;
 			children = (
-				D328C72E25EE080D003CEAE8 /* WeatherApp */,
+				D328C72E25EE080D003CEAE8 /* TimestampMenuBarApp */,
 				D328C72D25EE080D003CEAE8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,12 +49,12 @@
 		D328C72D25EE080D003CEAE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D328C72C25EE080D003CEAE8 /* WeatherApp.app */,
+				D328C72C25EE080D003CEAE8 /* TimestampMenuBarApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D328C72E25EE080D003CEAE8 /* WeatherApp */ = {
+		D328C72E25EE080D003CEAE8 /* TimestampMenuBarApp */ = {
 			isa = PBXGroup;
 			children = (
 				D328C72F25EE080D003CEAE8 /* AppDelegate.swift */,
@@ -63,10 +63,10 @@
 				D328C73325EE080D003CEAE8 /* Assets.xcassets */,
 				D328C73825EE080D003CEAE8 /* Main.storyboard */,
 				D328C73B25EE080D003CEAE8 /* Info.plist */,
-				D328C73C25EE080D003CEAE8 /* WeatherApp.entitlements */,
+				D328C73C25EE080D003CEAE8 /* TimestampMenuBarApp.entitlements */,
 				D328C73525EE080D003CEAE8 /* Preview Content */,
 			);
-			path = WeatherApp;
+			path = TimestampMenuBarApp;
 			sourceTree = "<group>";
 		};
 		D328C73525EE080D003CEAE8 /* Preview Content */ = {
@@ -80,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D328C72B25EE080C003CEAE8 /* WeatherApp */ = {
+		D328C72B25EE080C003CEAE8 /* TimestampMenuBarApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D328C73F25EE080D003CEAE8 /* Build configuration list for PBXNativeTarget "WeatherApp" */;
+			buildConfigurationList = D328C73F25EE080D003CEAE8 /* Build configuration list for PBXNativeTarget "TimestampMenuBarApp" */;
 			buildPhases = (
 				D328C72825EE080C003CEAE8 /* Sources */,
 				D328C72925EE080C003CEAE8 /* Frameworks */,
@@ -92,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = WeatherApp;
-			productName = WeatherApp;
-			productReference = D328C72C25EE080D003CEAE8 /* WeatherApp.app */;
+			name = TimestampMenuBarApp;
+			productName = TimestampMenuBarApp;
+			productReference = D328C72C25EE080D003CEAE8 /* TimestampMenuBarApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 		D328C72425EE080C003CEAE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					D328C72B25EE080C003CEAE8 = {
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D328C72725EE080C003CEAE8 /* Build configuration list for PBXProject "WeatherApp" */;
+			buildConfigurationList = D328C72725EE080C003CEAE8 /* Build configuration list for PBXProject "TimestampMenuBarApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D328C72B25EE080C003CEAE8 /* WeatherApp */,
+				D328C72B25EE080C003CEAE8 /* TimestampMenuBarApp */,
 			);
 		};
 /* End PBXProject section */
@@ -287,14 +287,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WeatherApp/WeatherApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TimestampMenuBarApp/TimestampMenuBarApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"WeatherApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TimestampMenuBarApp/Preview Content\"";
 				DEVELOPMENT_TEAM = U3FPG2LD3P;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_FILE = TimestampMenuBarApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -311,14 +313,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = WeatherApp/WeatherApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TimestampMenuBarApp/TimestampMenuBarApp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"WeatherApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TimestampMenuBarApp/Preview Content\"";
 				DEVELOPMENT_TEAM = U3FPG2LD3P;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WeatherApp/Info.plist;
+				INFOPLIST_FILE = TimestampMenuBarApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -333,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D328C72725EE080C003CEAE8 /* Build configuration list for PBXProject "WeatherApp" */ = {
+		D328C72725EE080C003CEAE8 /* Build configuration list for PBXProject "TimestampMenuBarApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D328C73D25EE080D003CEAE8 /* Debug */,
@@ -342,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D328C73F25EE080D003CEAE8 /* Build configuration list for PBXNativeTarget "WeatherApp" */ = {
+		D328C73F25EE080D003CEAE8 /* Build configuration list for PBXNativeTarget "TimestampMenuBarApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D328C74025EE080D003CEAE8 /* Debug */,

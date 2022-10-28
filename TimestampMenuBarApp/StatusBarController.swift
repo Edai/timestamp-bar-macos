@@ -1,11 +1,11 @@
-//
-//  StatusBarController.swift
-//  WeatherApp
-//
-//  Created by Charlie Levine on 3/2/21.
-//
-
 import AppKit
+
+func copyTimestamp() {
+    let timestamp = String(Int(NSDate().timeIntervalSince1970))
+    let pasteboard = NSPasteboard.general
+    pasteboard.clearContents()
+    pasteboard.setString(timestamp, forType: .string)
+}   
 
 class StatusBarController {
     private var statusBar: NSStatusBar
@@ -18,7 +18,7 @@ class StatusBarController {
         statusItem = statusBar.statusItem(withLength: 28.0)
         
         if let statusBarButton = statusItem.button {
-            statusBarButton.image = #imageLiteral(resourceName: "Weather")
+            statusBarButton.image = #imageLiteral(resourceName: "TimestampMenuBar")
             statusBarButton.image?.size = NSSize(width: 18.0, height: 18.0)
             statusBarButton.image?.isTemplate = true
             statusBarButton.action = #selector(togglePopover(sender:))
@@ -26,13 +26,15 @@ class StatusBarController {
         }
     }
     
+    
     @objc func togglePopover(sender: AnyObject) {
-        if(popover.isShown) {
-            hidePopover(sender)
-        }
-        else {
-            showPopover(sender)
-        }
+        copyTimestamp()
+        // if(popover.isShown) {
+        //     hidePopover(sender)
+        // }
+        // else {
+        //     showPopover(sender)
+        // }
     }
     
     func showPopover(_ sender: AnyObject) {

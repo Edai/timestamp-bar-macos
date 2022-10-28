@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  WeatherApp
-//
-//  Created by Charlie Levine on 3/2/21.
-//
-
 import Cocoa
 import SwiftUI
 
